@@ -109,7 +109,7 @@ packageJson = {
       },
     },
   },
-  keywords: ['log', 'mudbean'],
+  keywords: ['log', 'mudbean', 'vvi'],
   homepage: 'https://npm.lmssee.com/log',
   dependencies,
   bugs: {

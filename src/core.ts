@@ -1,11 +1,6 @@
-import {
-  bgBlackPen,
-  bgBrightYellowPen,
-  bgCyanPen,
-  colorText,
-} from '@mudbean/pen';
-import { esc } from '@mudbean/pen-static';
-import { createConstructor, getRandomString } from '@mudbean/utils';
+import { bgBlackPen, bgBrightYellowPen, bgCyanPen, colorText } from '@vvi/pen';
+import { esc } from '@vvi/pen-static';
+import { createConstructor, getRandomString } from '@vvi/utils';
 import { DevLog, DevLogType, DogOptions } from './type';
 import { getEnv, parseOption, platform, setType } from './util';
 
@@ -20,7 +15,7 @@ const DogConstructor = createConstructor(Dog);
 export { DogConstructor as Dog };
 
 /**
- * ## 创建 dev log 工厂函数
+ * # 创建 dev log 工厂函数
  * @param options - 配置项
  * @returns - dev log 工厂函数
  */

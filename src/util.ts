@@ -1,6 +1,6 @@
 /**
  * @packageDocumentation
- * @module @qqi/log/util
+ * @module @vvi/log/util
  * @file util.ts
  * @description 工具
  * @author MrMudBean <Mr.MudBean@outlook.com>
@@ -8,11 +8,11 @@
  * @copyright 2026 ©️ MrMudBean
  * @since 2026-01-28 03:11
  * @version 1.0.1
- * @lastModified 2026-06-14 14:19
+ * @lastModified 2026-06-15 20:37
  */
 
-import { isBoolean, isString, isUndefined } from '@mudbean/is';
-import { getRandomString, isNode } from '@mudbean/utils';
+import { isBoolean, isString, isUndefined } from '@vvi/is';
+import { getRandomString, isNode } from '@vvi/utils';
 import { DogOptions, type DevLogType } from './type';
 
 export const typeList: DevLogType[] = [

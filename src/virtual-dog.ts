@@ -1,6 +1,6 @@
 /**
  * @packageDocumentation
- * @module @qqi/log/virtual-dog
+ * @module @vvi/log/virtual-dog
  * @file virtual-dog.ts
  * @description _
  * @author MrMudBean <Mr.MudBean@outlook.com>
@@ -8,10 +8,10 @@
  * @copyright 2026 ©️ MrMudBean
  * @since 2026-01-28 04:52
  * @version 1.1.0
- * @lastModified 2026-06-14 14:19
+ * @lastModified 2026-06-15 20:37
  */
 
-import { createConstructor } from '@mudbean/utils';
+import { createConstructor } from '@vvi/utils';
 import { DevLog } from './type';
 
 /**
